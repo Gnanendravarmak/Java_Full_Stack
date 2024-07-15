@@ -35,7 +35,7 @@ public class Prime {
 		
 		boolean flag = true;
 		
-		while (i++ > Math.sqrt(val)) {
+		while (i <= Math.sqrt(val)) {
 			
 			
 			
