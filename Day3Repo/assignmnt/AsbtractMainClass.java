@@ -6,8 +6,8 @@ package com.grayMatter.assignmnt;
 public class AsbtractMainClass {
     public static void main(String[] args) {
         Customer customer = new Customer("varma", 101, "Gold");
-        Employee employee = new Employee("Ravi", 102, "Silver");
-        Admin admin = new Admin("kumar", 103, "Bronze");
+        Employee employee = new Employee("Ravi", 102, "S.E");
+        Admin admin = new Admin("kumar", 103, "Manager");
 
         customer.getDetails();
         employee.getDetails();
