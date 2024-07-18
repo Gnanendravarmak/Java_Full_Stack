@@ -3,17 +3,17 @@ package com.grayMatter.assignmnt;
 class Customer extends User {
     private String membershipLevel;
 
-    public Customer(String name, int id, String customerLevel) {
+    public Customer(String name, int id, String membershipLevel) {
         super(name, id);
-        this.membershipLevel = customerLevel;
+        this.membershipLevel = membershipLevel;
     }
 
     public String getCustomerLevel() {
         return membershipLevel;
     }
 
-    public void setCustomerLevel(String customerLevel) {
-        this.membershipLevel = customerLevel;
+    public void setCustomerLevel(String membershipLevel) {
+        this.membershipLevel = membershipLevel;
     }
 
     @Override
