@@ -12,7 +12,7 @@ public class Prime {
 		int val = sc.nextInt();
 		
 		
-//		findPrime(val);
+		findPrime(val);
 		
 		table(val);
 		
@@ -28,30 +28,26 @@ public class Prime {
 	}
 	
 	public static void findPrime(int val) {
-		
-//		if(val > 0) return 0;
-		
-		int i=2;
-		
-		boolean flag = true;
-		
-		while (i <= Math.sqrt(val)) {
-			
-			
-			
-			if(i % val ==0) {
-				flag =false;
-				break;
-			}
-			i++;
-			
-		}
-		
-		if(flag) {
-			System.out.print("prime");
-		}else System.out.print("Not a prime");
-		
-		
+	    if (val <= 1) {
+	        System.out.println("Not a prime");
+	        return;
+	    }
+
+	    boolean flag = true;
+	    
+	    for (int i = 2; i <= Math.sqrt(val); i++) {
+	        if (val % i == 0) {
+	            flag = false;
+	            break;
+	        }
+	    }
+	    
+	    if (flag) {
+	        System.out.println("Prime");
+	    } else {
+	        System.out.println("Not a prime");
+	    }
 	}
+
 
 }
