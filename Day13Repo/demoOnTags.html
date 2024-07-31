@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- <div class="form-group">
+        <label >SkillSet</label>
+        <input type="checkbox" name="skill" value="Java">Java</input>
+        <input type="checkbox"  name="skill" value="c++">c++</input>
+        <input type="checkbox"  name="skill" value="python">python</input>
+        <button onclick="submit()">Submit</button>
+      </div> -->
+    <!-- <div class="form-group">
+        <label >SkillSet</label>
+        <input type="radio" name="skill" value="Java">Java</input>
+        <input type="radio"  name="skill" value="c++">c++</input>
+        <input type="radio"  name="skill" value="python">python</input>
+        <button onclick="submit()">Submit</button>
+      </div> -->
+
+      <div class="form-group">
+        <label class="form-check-label" name="qual">Qualification</label>
+        <select class="form-select">
+            <option name="qual" value="MCA">Mca</option>
+            <option name="qual" value="BE">BE</option>
+            <option name="qual" value="MBA">MBA</option>
+        </select>
+        <button onclick="submit()">submit</button>
+      </div>
+
+
+      <script>
+        function submit() {
+            let doc = document.getElementsByName("qual");
+
+            console.log(doc)
+
+            for(i=0;i<doc.length;i++) {
+
+                if(doc[i].selected) {
+                    console.log(doc[i].value)
+                }
+
+            }
+
+        }
+      </script>
+</body>
+</html>
