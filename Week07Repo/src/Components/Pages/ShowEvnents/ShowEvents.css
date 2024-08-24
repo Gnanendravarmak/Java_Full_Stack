@@ -1,0 +1,189 @@
+/* General container for the show-events page */
+.show-events {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the search bar and "Add Event" button */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the search bar container */
+  .search-bar-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for the search bar */
+  .search-bar {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .search-bar:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Style for the "Add Event" button */
+  .add-event-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-event-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .add-event-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Style for the events table */
+  .events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for table headers */
+  .events-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  /* Style for table cells */
+  .events-table td {
+    padding: 3px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+  }
+  
+  /* Style for rows on hover */
+  .events-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Style for buttons inside the table */
+  .edit-button,
+  .delete-button {
+    display: inline-block;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .edit-button:active {
+    transform: scale(0.95);
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
+  .delete-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Style for "No events found" message */
+  .no-events {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  /* Container for the search bar and "Add Event" button */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the search bar container */
+  .search-bar-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for the search bar */
+  .search-bar {
+    width: 500px; /* Adjust width as needed */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+  
+ 
+  
+  /* Add some padding and margin for the "Add Event" button */
+  .add-event-button {
+    padding: 10px 20px;
+    background-color: #ffffff; /* YouTube red */
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 2px solid  #4CAF50;
+
+  }
+  
+  .add-event-button:hover {
+    background-color: #f1efef;
+  }
+  
+  

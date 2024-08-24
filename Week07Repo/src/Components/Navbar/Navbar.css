@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #405acf;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 50px; /* Adjust the height of your logo */
+    margin-right: 20px; /* Space between the logo and the login/signup links */
+}
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #f3f2f2;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.navbar-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #f3f2f2;
+    font-size: 16px;
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Remove margin from the last item in each section */
+.navbar-left .nav-link:last-child,
+.navbar-right .nav-link:last-child {
+    margin-right: 0;
+}
+
+/* Hover effect */
+.nav-link:hover {
+    color: #000000; /* Change text color on hover */
+    background-color: #f3f2f2; /* Change background color on hover */
+    border-color: #2a3bce; /* Change border color on hover */
+}
+
+
+.nav-btn {
+    margin-top: -2px;
+}
