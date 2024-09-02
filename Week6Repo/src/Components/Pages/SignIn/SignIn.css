@@ -1,0 +1,84 @@
+.signin-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-top: 85px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signin-container p.sign-in {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signin-form label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signin-form input,
+  .signin-form select {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signin-form input:focus,
+  .signin-form select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .signin-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signin-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .signin-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signin-container p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signin-container p a:hover {
+    text-decoration: underline;
+  }
+  

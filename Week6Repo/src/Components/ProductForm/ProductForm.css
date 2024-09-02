@@ -1,0 +1,78 @@
+/* ProductForm.css */
+
+.product-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .product-form input,
+  .product-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  .product-form textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 100px;
+  }
+  
+  .product-form input[type="number"] {
+    -moz-appearance: textfield; /* Hide spinner on Firefox */
+  }
+  
+  .product-form input[type="number"]::-webkit-inner-spin-button,
+  .product-form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .error-message,
+  .success-message {
+    color: #d9534f; /* Red for error messages */
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .success-message {
+    color: #5bc0de; /* Blue for success messages */
+  }
+  
+  .add-product-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-product-button:hover {
+    background-color: #0056b3;
+  }
+  
